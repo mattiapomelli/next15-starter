@@ -4,7 +4,7 @@
     /* Support tailwind rules inside class utility functions */
     "tailwindcss": {
       "callees": ["clsx", "cva", "cn"],
-      "config": "tailwind.config.js"
+      "config": "tailwind.config.ts"
     }
   }
 }
