@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, Source_Serif_4 } from "next/font/google";
+import { Inter, Raleway } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
 const fontSans = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
-const fontHeading = Source_Serif_4({
+const fontHeading = Raleway({
   subsets: ["latin"],
   variable: "--font-heading",
 });
